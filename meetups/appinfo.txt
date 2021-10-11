@@ -1,0 +1,9 @@
+Each app need an urls file. Then we need to conect this local urls map to the global server urls config.
+
+The folder for the templates file must be called "templates" because django configuration in settigns.py file 
+
+If we have several apps is recomended that the templates files are in a subfolder named like the app inside 
+the templates folder. This is because django will merge all the app themplates files in a giant templates 
+directory. So to evit name conflicts we do this.
+
+For the same reasons, we put the static files inside a subfolder with the app name in the static directory
